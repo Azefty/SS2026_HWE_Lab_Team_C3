@@ -1,0 +1,58 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+
+entity full_adder_tb is
+end full_adder_tb;
+
+
+architecture Behavioral of full_adder_tb is
+
+   
+    component full_adder
+        Port (
+            a   : in  STD_LOGIC;
+            b   : in  STD_LOGIC;
+            bin : in  STD_LOGIC;
+            s   : out STD_LOGIC;
+            c   : out STD_LOGIC
+        );
+    end component;
+
+   
+    signal a   : STD_LOGIC := '0';
+    signal b   : STD_LOGIC := '0';
+    signal bin : STD_LOGIC := '0';
+    signal s   : STD_LOGIC;
+    signal c   : STD_LOGIC;
+
+begin
+
+    -- Instantiate the Unit Under Test (UUT)
+    UUT: full_adder
+        port map (
+            a   => a,
+            b   => b,
+            bin => bin,
+            s   => s,
+            c   => c
+        );
+
+    
+    stim_proc: process
+    begin
+
+        a <= '0'; b <= '0'; bin <= '0'; wait for 25 ps;
+        a <= '0'; b <= '0'; bin <= '1'; wait for 25 ps;
+        a <= '0'; b <= '1'; bin <= '0'; wait for 25 ps;
+        a <= '0'; b <= '1'; bin <= '1'; wait for 25 ps;
+        a <= '1'; b <= '0'; bin <= '0'; wait for 25 ps;
+        a <= '1'; b <= '0'; bin <= '1'; wait for 25 ps;
+        a <= '1'; b <= '1'; bin <= '0'; wait for 25 ps;
+        a <= '1'; b <= '1'; bin <= '1'; wait for 25 ps;
+
+        wait; 
+
+    end process;
+
+end Behavioral;

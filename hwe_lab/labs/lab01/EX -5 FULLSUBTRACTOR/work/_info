@@ -1,0 +1,213 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera/EX-4 HALFSUBTRACTOR
+Efull_adder_bhv
+Z0 w1778359881
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+Z3 dC:/altera/EX -5 FULLSUBTRACTOR
+Z4 8C:/altera/EX-3 FullADDER bhv/full_adder_bhv.vhd
+Z5 FC:/altera/EX-3 FullADDER bhv/full_adder_bhv.vhd
+l0
+L4 1
+V4d5^1fe4<GeDCB]?kZALm0
+!s100 kc?:?feS]VifCZE9YA5823
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1778366726
+!i10b 1
+Z8 !s108 1778366726.000000
+Z9 !s90 -reportprogress|300|-work|work|C:/altera/EX-3 FullADDER bhv/full_adder_bhv.vhd|
+Z10 !s107 C:/altera/EX-3 FullADDER bhv/full_adder_bhv.vhd|
+!i113 1
+Z11 o-work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+DEx4 work 14 full_adder_bhv 0 22 4d5^1fe4<GeDCB]?kZALm0
+!i122 2
+l10
+L9 5
+VZ?QlSo[9Pizg51>_mPQ2[3
+!s100 Pk5an:SWZ>@QB^4P6HfoB0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Efull_subtractor_bhv
+Z13 w1778365354
+R1
+R2
+!i122 0
+R3
+Z14 8C:/altera/EX -5 FULLSUBTRACTOR/full_subtractor_bhv.vhd
+Z15 FC:/altera/EX -5 FULLSUBTRACTOR/full_subtractor_bhv.vhd
+l0
+L5 1
+VLY]gEDmG_nN0I@kJifb4F0
+!s100 7Rg<;l5[_j:fcbg0l>[[^3
+R6
+32
+Z16 !s110 1778365375
+!i10b 1
+Z17 !s108 1778365375.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/altera/EX -5 FULLSUBTRACTOR/full_subtractor_bhv.vhd|
+Z19 !s107 C:/altera/EX -5 FULLSUBTRACTOR/full_subtractor_bhv.vhd|
+!i113 1
+Z20 o-work work -2002 -explicit
+R12
+Abehavioral
+R1
+R2
+Z21 DEx4 work 19 full_subtractor_bhv 0 22 LY]gEDmG_nN0I@kJifb4F0
+!i122 0
+l16
+L15 7
+V?3L?e2dCR8fToXl4fe[a61
+!s100 5mV>lThPE1zFSk9>R5@2=3
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R20
+R12
+Efull_subtractor_bhv_tb
+Z22 w1778365338
+R1
+R2
+!i122 1
+R3
+Z23 8C:/altera/EX -5 FULLSUBTRACTOR/full_subtractor_bhv_tb.vhd
+Z24 FC:/altera/EX -5 FULLSUBTRACTOR/full_subtractor_bhv_tb.vhd
+l0
+L5 1
+VC7DgV4nE?8JH6o`]1P[Sz2
+!s100 fMdQGIJ4nZ<`A7V`[iG9l1
+R6
+32
+R16
+!i10b 1
+R17
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/altera/EX -5 FULLSUBTRACTOR/full_subtractor_bhv_tb.vhd|
+Z26 !s107 C:/altera/EX -5 FULLSUBTRACTOR/full_subtractor_bhv_tb.vhd|
+!i113 1
+R20
+R12
+Atb
+R21
+R1
+R2
+DEx4 work 22 full_subtractor_bhv_tb 0 22 C7DgV4nE?8JH6o`]1P[Sz2
+!i122 1
+l13
+L8 33
+V;OfGYbO]d<N2M>84Ye9Wi2
+!s100 kX2<1fVCXbH;OGlZ3PW:J2
+R6
+32
+R16
+!i10b 1
+R17
+R25
+R26
+!i113 1
+R20
+R12
+Ehalf_adder_tb
+Z27 w1778161457
+R1
+R2
+!i122 4
+R3
+Z28 8C:/altera/EX-2 HALFADER/HALFADDER_TB.vhd
+Z29 FC:/altera/EX-2 HALFADER/HALFADDER_TB.vhd
+l0
+L6 1
+VE94F=:n:9az`JkYFC=5z>2
+!s100 Dj>TF9FD=<fDTPCmf6e^H1
+R6
+32
+Z30 !s110 1778366955
+!i10b 1
+Z31 !s108 1778366955.000000
+Z32 !s90 -reportprogress|300|-work|work|C:/altera/EX-2 HALFADER/HALFADDER_TB.vhd|
+!s107 C:/altera/EX-2 HALFADER/HALFADDER_TB.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R1
+R2
+DEx4 work 13 half_adder_tb 0 22 E94F=:n:9az`JkYFC=5z>2
+!i122 4
+l28
+L10 59
+VBA1z9WDRSK45SL4mbSbl02
+!s100 e6iHkM_g?BeJPzG`8SO131
+R6
+32
+R30
+!i10b 1
+R31
+R32
+Z33 !s107 C:/altera/EX-2 HALFADER/HALFADDER_TB.vhd|
+!i113 1
+R11
+R12
+Exorgatter
+Z34 w1777555205
+!i122 3
+R3
+Z35 8C:/altera/EX-1 XORGATTER/ExampleXORGatter.vhd
+Z36 FC:/altera/EX-1 XORGATTER/ExampleXORGatter.vhd
+l0
+L1 1
+Vol5A9HbdCgGA70Og9RlVY2
+!s100 n?]DW]?HhJOBGRk<i@;<<0
+R6
+32
+Z37 !s110 1778366820
+!i10b 1
+Z38 !s108 1778366820.000000
+Z39 !s90 -reportprogress|300|-work|work|C:/altera/EX-1 XORGATTER/ExampleXORGatter.vhd|
+Z40 !s107 C:/altera/EX-1 XORGATTER/ExampleXORGatter.vhd|
+!i113 1
+R11
+R12
+Adata
+DEx4 work 9 xorgatter 0 22 ol5A9HbdCgGA70Og9RlVY2
+!i122 3
+l6
+L5 4
+VoUADk;3<_e`54i8eMB2OR1
+!s100 [FK_3EMYBH_HdJ3^MYLH12
+R6
+32
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 1
+R11
+R12

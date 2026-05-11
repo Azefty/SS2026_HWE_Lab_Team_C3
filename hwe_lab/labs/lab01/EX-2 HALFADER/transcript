@@ -1,0 +1,42 @@
+# Compile of half_adder.vhd was successful.
+# Compile of half_adder_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.half_adder_tb
+# vsim -gui work.half_adder_tb 
+# Start time: 01:11:31 on May 10,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.half_adder_tb(behavioral)
+# Loading work.half_adder(behavioral)
+add wave -position insertpoint sim:/half_adder_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Efty02  Hostname: DESKTOP-BC9JMV9  ProcessID: 11212
+#           Attempting to use alternate WLF file "./wlftq8it81".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftq8it81
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/altera/EX-2 HALFADER/wave.do}
+# Load canceled
+# Compile of half_adder_tb.vhd was successful.
+# Load canceled
+# Compile of half_adder.vhd was successful.
+# Compile of half_adder_tb.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of half_adder.vhd was successful.
+# Compile of half_adder_tb.vhd was successful.
+# Compile of full_adder_bhv.vhd was successful.
+# Compile of full_adder_bhv_tb.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of half_adder.vhd was successful.
+# Compile of half_adder_tb.vhd was successful.
+# Compile of full_adder_bhv.vhd was successful.
+# Compile of full_adder_bhv_tb.vhd was successful.
+# Compile of half_subtractor.vhd was successful.
+# Compile of half_subtractor_tb.vhd was successful.
+# Compile of full_subtractor_bhv.vhd was successful.
+# Compile of full_subtractor_bhv_tb.vhd was successful.
+# 8 compiles, 0 failed with no errors.
+# End time: 01:31:30 on May 10,2026, Elapsed time: 0:19:59
+# Errors: 0, Warnings: 15
