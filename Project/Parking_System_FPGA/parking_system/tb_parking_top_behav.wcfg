@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_parking_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_parking_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2.850000 us"></ZoomStartTime>
+      <ZoomEndTime time="4.790001 us"></ZoomEndTime>
+      <Cursor1Time time="10.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="220"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="61" />
+   <wvobject fp_name="/tb_parking_top/CLK100MHZ" type="logic">
+      <obj_property name="ElementShortName">CLK100MHZ</obj_property>
+      <obj_property name="ObjectShortName">CLK100MHZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/BTNU" type="logic">
+      <obj_property name="ElementShortName">BTNU</obj_property>
+      <obj_property name="ObjectShortName">BTNU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/BTND" type="logic">
+      <obj_property name="ElementShortName">BTND</obj_property>
+      <obj_property name="ObjectShortName">BTND</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/BTNC" type="logic">
+      <obj_property name="ElementShortName">BTNC</obj_property>
+      <obj_property name="ObjectShortName">BTNC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/LED" type="array">
+      <obj_property name="ElementShortName">LED[15:0]</obj_property>
+      <obj_property name="ObjectShortName">LED[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/CA" type="logic">
+      <obj_property name="ElementShortName">CA</obj_property>
+      <obj_property name="ObjectShortName">CA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/CB" type="logic">
+      <obj_property name="ElementShortName">CB</obj_property>
+      <obj_property name="ObjectShortName">CB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/CC" type="logic">
+      <obj_property name="ElementShortName">CC</obj_property>
+      <obj_property name="ObjectShortName">CC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/CD" type="logic">
+      <obj_property name="ElementShortName">CD</obj_property>
+      <obj_property name="ObjectShortName">CD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/CE" type="logic">
+      <obj_property name="ElementShortName">CE</obj_property>
+      <obj_property name="ObjectShortName">CE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/CF" type="logic">
+      <obj_property name="ElementShortName">CF</obj_property>
+      <obj_property name="ObjectShortName">CF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/CG" type="logic">
+      <obj_property name="ElementShortName">CG</obj_property>
+      <obj_property name="ObjectShortName">CG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/DP" type="logic">
+      <obj_property name="ElementShortName">DP</obj_property>
+      <obj_property name="ObjectShortName">DP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/AN" type="array">
+      <obj_property name="ElementShortName">AN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/CLK_PERIOD" type="other">
+      <obj_property name="ElementShortName">CLK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">CLK_PERIOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/CLK100MHZ" type="logic">
+      <obj_property name="ElementShortName">CLK100MHZ</obj_property>
+      <obj_property name="ObjectShortName">CLK100MHZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/BTNU" type="logic">
+      <obj_property name="ElementShortName">BTNU</obj_property>
+      <obj_property name="ObjectShortName">BTNU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/BTND" type="logic">
+      <obj_property name="ElementShortName">BTND</obj_property>
+      <obj_property name="ObjectShortName">BTND</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/BTNC" type="logic">
+      <obj_property name="ElementShortName">BTNC</obj_property>
+      <obj_property name="ObjectShortName">BTNC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/LED" type="array">
+      <obj_property name="ElementShortName">LED[15:0]</obj_property>
+      <obj_property name="ObjectShortName">LED[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/CA" type="logic">
+      <obj_property name="ElementShortName">CA</obj_property>
+      <obj_property name="ObjectShortName">CA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/CB" type="logic">
+      <obj_property name="ElementShortName">CB</obj_property>
+      <obj_property name="ObjectShortName">CB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/CC" type="logic">
+      <obj_property name="ElementShortName">CC</obj_property>
+      <obj_property name="ObjectShortName">CC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/CD" type="logic">
+      <obj_property name="ElementShortName">CD</obj_property>
+      <obj_property name="ObjectShortName">CD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/CE" type="logic">
+      <obj_property name="ElementShortName">CE</obj_property>
+      <obj_property name="ObjectShortName">CE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/CF" type="logic">
+      <obj_property name="ElementShortName">CF</obj_property>
+      <obj_property name="ObjectShortName">CF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/CG" type="logic">
+      <obj_property name="ElementShortName">CG</obj_property>
+      <obj_property name="ObjectShortName">CG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/DP" type="logic">
+      <obj_property name="ElementShortName">DP</obj_property>
+      <obj_property name="ObjectShortName">DP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/AN" type="array">
+      <obj_property name="ElementShortName">AN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/entry_pulse" type="logic">
+      <obj_property name="ElementShortName">entry_pulse</obj_property>
+      <obj_property name="ObjectShortName">entry_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/exit_pulse" type="logic">
+      <obj_property name="ElementShortName">exit_pulse</obj_property>
+      <obj_property name="ObjectShortName">exit_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/reset_pulse" type="logic">
+      <obj_property name="ElementShortName">reset_pulse</obj_property>
+      <obj_property name="ObjectShortName">reset_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/occupied" type="other">
+      <obj_property name="ElementShortName">occupied</obj_property>
+      <obj_property name="ObjectShortName">occupied</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/available" type="other">
+      <obj_property name="ElementShortName">available</obj_property>
+      <obj_property name="ObjectShortName">available</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/refresh_counter" type="other">
+      <obj_property name="ElementShortName">refresh_counter</obj_property>
+      <obj_property name="ObjectShortName">refresh_counter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/digit_select" type="logic">
+      <obj_property name="ElementShortName">digit_select</obj_property>
+      <obj_property name="ObjectShortName">digit_select</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/ones_digit" type="other">
+      <obj_property name="ElementShortName">ones_digit</obj_property>
+      <obj_property name="ObjectShortName">ones_digit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/tens_digit" type="other">
+      <obj_property name="ElementShortName">tens_digit</obj_property>
+      <obj_property name="ObjectShortName">tens_digit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/current_digit" type="other">
+      <obj_property name="ElementShortName">current_digit</obj_property>
+      <obj_property name="ObjectShortName">current_digit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/seg" type="array">
+      <obj_property name="ElementShortName">seg[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/DB_COUNT" type="other">
+      <obj_property name="ElementShortName">DB_COUNT</obj_property>
+      <obj_property name="ObjectShortName">DB_COUNT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/CLK100MHZ" type="logic">
+      <obj_property name="ElementShortName">CLK100MHZ</obj_property>
+      <obj_property name="ObjectShortName">CLK100MHZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/BTNU" type="logic">
+      <obj_property name="ElementShortName">BTNU</obj_property>
+      <obj_property name="ObjectShortName">BTNU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/BTND" type="logic">
+      <obj_property name="ElementShortName">BTND</obj_property>
+      <obj_property name="ObjectShortName">BTND</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/BTNC" type="logic">
+      <obj_property name="ElementShortName">BTNC</obj_property>
+      <obj_property name="ObjectShortName">BTNC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/LED" type="array">
+      <obj_property name="ElementShortName">LED[15:0]</obj_property>
+      <obj_property name="ObjectShortName">LED[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/CA" type="logic">
+      <obj_property name="ElementShortName">CA</obj_property>
+      <obj_property name="ObjectShortName">CA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/CB" type="logic">
+      <obj_property name="ElementShortName">CB</obj_property>
+      <obj_property name="ObjectShortName">CB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/CC" type="logic">
+      <obj_property name="ElementShortName">CC</obj_property>
+      <obj_property name="ObjectShortName">CC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/CD" type="logic">
+      <obj_property name="ElementShortName">CD</obj_property>
+      <obj_property name="ObjectShortName">CD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/CE" type="logic">
+      <obj_property name="ElementShortName">CE</obj_property>
+      <obj_property name="ObjectShortName">CE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/CF" type="logic">
+      <obj_property name="ElementShortName">CF</obj_property>
+      <obj_property name="ObjectShortName">CF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/CG" type="logic">
+      <obj_property name="ElementShortName">CG</obj_property>
+      <obj_property name="ObjectShortName">CG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/DP" type="logic">
+      <obj_property name="ElementShortName">DP</obj_property>
+      <obj_property name="ObjectShortName">DP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/AN" type="array">
+      <obj_property name="ElementShortName">AN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">AN[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/CLK_PERIOD" type="other">
+      <obj_property name="ElementShortName">CLK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">CLK_PERIOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/occupied" type="other">
+      <obj_property name="ElementShortName">occupied</obj_property>
+      <obj_property name="ObjectShortName">occupied</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/available" type="other">
+      <obj_property name="ElementShortName">available</obj_property>
+      <obj_property name="ObjectShortName">available</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/refresh_counter" type="other">
+      <obj_property name="ElementShortName">refresh_counter</obj_property>
+      <obj_property name="ObjectShortName">refresh_counter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/exit_pulse" type="logic">
+      <obj_property name="ElementShortName">exit_pulse</obj_property>
+      <obj_property name="ObjectShortName">exit_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_parking_top/uut/entry_pulse" type="logic">
+      <obj_property name="ElementShortName">entry_pulse</obj_property>
+      <obj_property name="ObjectShortName">entry_pulse</obj_property>
+   </wvobject>
+</wave_config>
