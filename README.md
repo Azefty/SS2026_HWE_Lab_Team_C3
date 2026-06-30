@@ -1,114 +1,57 @@
-#  Park System Controller (FPGA - VHDL)
+# Parking System Controller (FPGA – VHDL)
 
-## Project Overview
-This project implements a **digital parking lot management system** using **VHDL on an FPGA**. It simulates real-world parking behavior by tracking vehicle entry and exit, managing available spaces, and controlling access when the lot is full.
+Password-protected parking lot controller implemented in VHDL and tested on a **Nexys A7-100T (Artix-7)** FPGA.
+
+## Overview
+Tracks vehicle entry/exit, manages 15 parking spaces, and only allows entry after a correct password is verified. Status is shown on a 7-segment display and LEDs.
+
+## Features
+- Password-gated entry using 4 switches (SW0–SW3)
+- Occupancy counter (0–15) with full-lot protection
+- 7-segment display: rightmost digits = available spaces, leftmost = `A` (accepted) / `E` (wrong password)
+- LED status indicators
+- Debounced push buttons (entry, exit, reset, verify)
+
+## Controls
+| Button | Function |
+|--------|----------|
+| BTNU | Entry |
+| BTND | Exit |
+| BTNC | Reset |
+| BTNL | Verify password |
+
+## LEDs
+| LED | Meaning |
+|-----|---------|
+| LED0 | Space available |
+| LED1 | Parking full |
+| LED2 | Password accepted |
+| LED3 | Password rejected |
+
+## How It Works
+1. Set the password on SW[3:0] and press **BTNL** to verify.
+2. Correct code → display shows `A`, entry enabled for one vehicle.
+3. Wrong code → display shows `E`, entry blocked.
+4. **BTNU** registers entry (only after verification), **BTND** registers exit.
+5. Available spaces = 15 − occupied, shown live on the display.
+
+## Hardware
+- Nexys A7-100T (Artix-7 XC7A100T)
+- 100 MHz on-board clock
+- Push buttons, switches, LEDs, 7-segment display
+- Custom PCB concept (in progress, Altium)
 
 
----
+## Status
+Simulated, synthesized, implemented, and tested on hardware. PCB design in progress.
 
-##  Objectives
-- Design a parking management system in VHDL
-- Implement on **Nexys A7 FPGA (Artix-7)**
-- Simulate entry/exit using push buttons
-- Track spaces using a **4-bit counter (0–15)**
-- Display available spaces on **7-segment display**
-- Use LEDs for status indication
-- Implement **FSM (Finite State Machine)** control logic
-- Develop a **custom PCB** for hardware realization
-
----
-
-##  System Description
-
-###  Entry Process
-- Counter increments
-- Display updates available spaces
-- Green LED = ON (entry allowed)
-- If full → entry blocked
-
-###  Exit Process
-- Counter decrements
-- Display updates
-- If previously full → entry re-enabled
-
-###  Reset
-- Counter resets to zero
-- System returns to initial state
-
----
-
-## Architecture
-
-### Main Modules
-1. **Control Unit (FSM)**
-   - States: `Idle`, `Entry`, `Exit`, `Full`, `Reset`
-
-2. **Counter / Datapath**
-   - 4-bit up/down counter (0–15)
-   - Overflow/underflow protection
-
-3. **I/O Module**
-   - Button debouncing
-   - 7-segment display driver
-   - LED control
-
----
-
-## Inputs & Outputs
-
-### Inputs
-- Entry button
-- Exit button
-- Reset button
-- Clock (100 MHz)
-
-### Outputs
-- 7-segment display (available spaces)
-- Green LED (space available)
-- Red LED (lot full)
-- Optional gate status LED
-
----
-
-## Hardware Components
-- FPGA Board: **Nexys A7 (Artix-7 XC7A100T)**
-- Push buttons (Entry, Exit, Reset)
-- LEDs (Green, Red)
-- 7-segment display
-- On-board clock (100 MHz)
-- Custom PCB (optional)
-
----
-
-## Working Principle
-The system manages up to **15 parking spaces**:
-- Entry increases occupancy
-- Exit decreases occupancy
-- When full:
-  - Red LED ON
-  - Entry disabled
-- When space frees:
-  - Green LED ON
-  - Entry enabled
-
----
-
-## Team Members
+## Team
 - Muhammad Umar Hayat
 - Jaleel Ur Rehman
 - Efty
 - Zulkar Nain Sayeed
 
----
-
-## Course Info
-**Hardware Engineering Lab – SS 2026**  
+## Course
+Hardware Engineering Lab – SS 2026
 Supervisor: Prof. Dr.-Ing. Ali Hayek
 
----
-
-## Future Improvements
-- Sensor-based automatic detection
-- Mobile app integration
-- Real-time monitoring dashboard
-- Multi-level parking support
